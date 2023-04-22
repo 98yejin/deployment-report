@@ -1,8 +1,12 @@
 {
   "events": {
+    "event_id": "777",
+    "title": "deploy request",
+    "summary": "ASAP",
     "request_id": "hello.world",
     "deploy_id": "bye.world",
     "status": "progress",
+    "requested_at": "9999.12.31",
     "modules": [
       {
         "name": "python3",
@@ -12,7 +16,7 @@
         "commit_sha": "12qwejwqoe",
         "auth_id": "jewoajiowe21312dasjf",
         "vcs_url": "python.hub.com",
-        "deploy_url": "deploy.url.com"
+        "deploy_url": "localhost:8080/jobs/test_job"
       },
       {
         "name": "java11",
@@ -22,7 +26,7 @@
         "commit_sha": "41y89e3yu93Q2He",
         "auth_id": "23r39qajapjew0jr09",
         "vcs_url": "java.control.com",
-        "deploy_url": "deploy.url.com"
+        "deploy_url": "localhost:8080/jobs/test_job"
       }
     ]
   }
